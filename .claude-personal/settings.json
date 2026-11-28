@@ -1,0 +1,57 @@
+{
+  "cleanupPeriodDays": 90,
+  "env": {
+    "_ZO_DOCTOR": "0"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
+  "permissions": {
+    "defaultMode": "auto",
+    "deny": [
+	    "Bash(git reset --hard *)",
+	    "Read(./.env)"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"/home/r2d2/.claude-personal/plugins/cache/caveman/caveman/655b7d9c5431/src/hooks/caveman-statusline.sh\""
+  },
+  "enabledPlugins": {
+    "code-review@claude-plugins-official": true,
+    "ponytail@ponytail": true,
+    "frontend-design@claude-plugins-official": true,
+    "skill-creator@anthropic-plugin-directory": true,
+    "code-simplifier@anthropic-plugin-directory": true,
+    "mattpocock-skills@claude-plugins-official": true,
+    "caveman@anthropic-plugin-directory": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      },
+      "autoUpdate": true
+    }
+  },
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "high"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "xhigh",
+      "autoCompactWindow": 200000
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "awaySummaryEnabled": false,
+  "autoUpdatesChannel": "stable",
+  "tui": "fullscreen",
+  "theme": "dark",
+  "autoContinueAtUsageLimit": false
+}
+
